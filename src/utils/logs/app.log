@@ -1,0 +1,589 @@
+2025-03-20 16:48:28 info: API Gateway starting... 
+2025-03-20 16:49:02 info: API Gateway starting... 
+2025-03-20 19:43:07 info: User harish1 logged in 
+2025-03-20 19:44:04 info: User harish1 logged in 
+2025-03-24 17:38:46 error: Error logging in: userName is not defined 
+2025-03-24 17:39:28 info: User harish logged in 
+2025-03-24 17:42:12 error: uncaughtException: body is not defined
+ReferenceError: body is not defined
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:3:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) ReferenceError: body is not defined
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:3:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:42:19 error: uncaughtException: body is not defined
+ReferenceError: body is not defined
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:3:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) ReferenceError: body is not defined
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:3:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:42:39 error: uncaughtException: body is not defined
+ReferenceError: body is not defined
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:45)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) ReferenceError: body is not defined
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:45)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:42:41 error: uncaughtException: body is not defined
+ReferenceError: body is not defined
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:3:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) ReferenceError: body is not defined
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:3:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:42:44 error: uncaughtException: Unexpected token '='
+C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:1
+const  = require('express-validator');
+       ^
+
+SyntaxError: Unexpected token '='
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:1
+const  = require('express-validator');
+       ^
+
+SyntaxError: Unexpected token '='
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:45:20 error: uncaughtException: Unexpected identifier 'next'
+C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:13
+  next();
+  ^^^^
+
+SyntaxError: Unexpected identifier 'next'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:13
+  next();
+  ^^^^
+
+SyntaxError: Unexpected identifier 'next'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:45:34 error: Error logging in: Cannot set headers after they are sent to the client 
+2025-03-24 17:45:34 error: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:278:15)
+    at login (C:\Users\haris\Documents\system design\auth_service\controllers\Authcontroller.js:55:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:278:15)
+    at login (C:\Users\haris\Documents\system design\auth_service\controllers\Authcontroller.js:55:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-03-24 17:45:36 error: Error logging in: Cannot set headers after they are sent to the client 
+2025-03-24 17:45:36 error: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:278:15)
+    at login (C:\Users\haris\Documents\system design\auth_service\controllers\Authcontroller.js:55:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\haris\Documents\system design\auth_service\node_modules\express\lib\response.js:278:15)
+    at login (C:\Users\haris\Documents\system design\auth_service\controllers\Authcontroller.js:55:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-03-24 17:45:36 error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:264:12)
+    at Writable.write (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:300:21)
+    at File.log (C:\Users\haris\Documents\system design\auth_service\node_modules\winston\lib\winston\transports\file.js:222:34)
+    at RejectionStream._write (C:\Users\haris\Documents\system design\auth_service\node_modules\winston\lib\winston\rejection-stream.js:46:29)
+    at doWrite (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_readable.js:279:12) Error: write after end
+    at writeAfterEnd (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:264:12)
+    at Writable.write (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:300:21)
+    at File.log (C:\Users\haris\Documents\system design\auth_service\node_modules\winston\lib\winston\transports\file.js:222:34)
+    at RejectionStream._write (C:\Users\haris\Documents\system design\auth_service\node_modules\winston\lib\winston\rejection-stream.js:46:29)
+    at doWrite (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at addChunk (C:\Users\haris\Documents\system design\auth_service\node_modules\readable-stream\lib\_stream_readable.js:279:12)
+2025-03-24 17:48:11 error: uncaughtException: body(...).isEmail(...).isemwithMessage is not a function
+TypeError: body(...).isEmail(...).isemwithMessage is not a function
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:27)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) TypeError: body(...).isEmail(...).isemwithMessage is not a function
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:27)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:48:13 error: uncaughtException: body(...).isEmail(...).isEmptywithMessage is not a function
+TypeError: body(...).isEmail(...).isEmptywithMessage is not a function
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:27)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) TypeError: body(...).isEmail(...).isEmptywithMessage is not a function
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:27)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:53:08 error: uncaughtException: body(...).isEmail(...).notwithMessage is not a function
+TypeError: body(...).isEmail(...).notwithMessage is not a function
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:27)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) TypeError: body(...).isEmail(...).notwithMessage is not a function
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:27)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:53:47 error: uncaughtException: Unexpected token '.'
+C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4
+  body('email').isEmail().notEmpty()..bail().withMessage('Invalid email address'),
+                                     ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4
+  body('email').isEmail().notEmpty()..bail().withMessage('Invalid email address'),
+                                     ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:54:28 error: uncaughtException: body(...).isEmail(...).notEmpty(...).withMessage(...).trimbail is not a function
+TypeError: body(...).isEmail(...).notEmpty(...).withMessage(...).trimbail is not a function
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:71)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) TypeError: body(...).isEmail(...).notEmpty(...).withMessage(...).trimbail is not a function
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:4:71)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 17:58:11 error: uncaughtException: missing ) after argument list
+C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:7
+  .notEmpty().withMessage('Email can't be empty').bail()
+                          ^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:7
+  .notEmpty().withMessage('Email can't be empty').bail()
+                          ^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 18:04:40 info: User harish1 created 
+2025-03-24 18:05:45 error: uncaughtException: Invalid or unexpected token
+C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:25
+    .withMessage'),
+                ^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:49)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) C:\Users\haris\Documents\system design\auth_service\validations\authValidations.js:25
+    .withMessage'),
+                ^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\haris\Documents\system design\auth_service\routes\AuthRoutes.js:3:49)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025-03-24 18:06:25 info: User harish1 created 
+2025-03-24 18:06:42 info: User harish1 logged in 
+2025-03-24 18:10:43 info: User harish1 logged in 
+2025-03-24 19:12:34 info: Server is running on port 4001 
+2025-07-03 13:44:49 error: unhandledRejection: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:236:11)
+    at NativeConnection.openUri (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\connection.js:1071:34)
+    at Mongoose.connect (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\mongoose.js:446:15)
+    at Object.<anonymous> (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\db.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24) MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:236:11)
+    at NativeConnection.openUri (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\connection.js:1071:34)
+    at Mongoose.connect (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\mongoose.js:446:15)
+    at Object.<anonymous> (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\db.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+2025-07-03 13:48:03 error: unhandledRejection: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:236:11)
+    at NativeConnection.openUri (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\connection.js:1071:34)
+    at Mongoose.connect (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\mongoose.js:446:15)
+    at Object.<anonymous> (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\db.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24) MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:236:11)
+    at NativeConnection.openUri (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\connection.js:1071:34)
+    at Mongoose.connect (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\node_modules\mongoose\lib\mongoose.js:446:15)
+    at Object.<anonymous> (C:\Users\haris\Pictures\sunotal-farms-services\auth_service\db.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+2025-07-03 17:24:48 error: uncaughtException: Cannot find module '../database/models/AuthModel'
+Require stack:
+- C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\routes\AuthRoutes.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\expressApp.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\server.js
+Error: Cannot find module '../database/models/AuthModel'
+Require stack:
+- C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\routes\AuthRoutes.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\expressApp.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js:4:15)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) Error: Cannot find module '../database/models/AuthModel'
+Require stack:
+- C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\routes\AuthRoutes.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\expressApp.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js:4:15)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-07-03 17:25:01 error: uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\routes\AuthRoutes.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\expressApp.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\server.js
+Error: Cannot find module '../'
+Require stack:
+- C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\routes\AuthRoutes.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\expressApp.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js:4:15)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) Error: Cannot find module '../'
+Require stack:
+- C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\routes\AuthRoutes.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\expressApp.js
+- C:\Users\haris\Videos\micro-services\auth_service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Videos\micro-services\auth_service\src\controllers\Authcontroller.js:4:15)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-07-03 19:30:15 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:40:12 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:41:39 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:41:56 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:44:13 error: uncaughtException: Unexpected token '}'
+C:\Users\haris\Videos\micro-services\auth_service\src\database\repositories\userAuthRepository.js:54
+        } catch (error) {
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Videos\micro-services\auth_service\src\database\index.js:3:25) C:\Users\haris\Videos\micro-services\auth_service\src\database\repositories\userAuthRepository.js:54
+        } catch (error) {
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Videos\micro-services\auth_service\src\database\index.js:3:25)
+2025-07-03 19:44:59 error: uncaughtException: Unexpected token '}'
+C:\Users\haris\Videos\micro-services\auth_service\src\database\repositories\userAuthRepository.js:70
+        } catch (error) {
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Videos\micro-services\auth_service\src\database\index.js:3:25) C:\Users\haris\Videos\micro-services\auth_service\src\database\repositories\userAuthRepository.js:70
+        } catch (error) {
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Videos\micro-services\auth_service\src\database\index.js:3:25)
+2025-07-03 19:46:22 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:22 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:22 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:23 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:23 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:23 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:23 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:23 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:23 error: Error logging in: Users.findOne is not a function 
+2025-07-03 19:46:23 error: Error logging in: Users.findOne is not a function 
+2025-07-04 11:53:28 info: User harish created 
+2025-07-04 12:02:38 info: User harish logged in 
+2025-07-04 12:02:52 info: User harish logged in 
+2025-07-04 12:07:12 info: User harish logged in 
+2025-07-04 12:07:13 info: User harish logged in 
+2025-07-04 12:09:43 info: User harish logged in 
+2025-07-04 12:12:18 info: User harish logged in 
+2025-07-04 12:14:06 info: User harish logged in 
