@@ -1,8 +1,8 @@
 const authService = require('../services/authServices');
 
-const signUp = async (req, res) => {
+const userSignUp = async (req, res) => {
     try {
-        const user = await authService.signUp(req.body);
+        const user = await authService.userSignUp(req.body);
         return res.status(201).json(user);
     } catch (error) {
         const status = error.status || 500;
@@ -10,9 +10,9 @@ const signUp = async (req, res) => {
     }
 };
 
-const login = async (req, res) => {
+const userLogin = async (req, res) => {
     try {
-        const tokens = await authService.login(req.body);
+        const tokens = await authService.userLogin(req.body);
         return res.json(tokens);
     } catch (error) {
         const status = error.status || 500;
@@ -31,10 +31,10 @@ const refreshTokenHandler = async (req, res) => {
     }
 };
 
-const logout = async (req, res) => {
+const userLogout = async (req, res) => {
     try {
         const { token } = req.body;
-        await authService.logout(token);
+        await authService.userLogout(token);
         return res.json({ message: 'Logged out successfully' });
     } catch (error) {
         const status = error.status || 500;
@@ -43,8 +43,8 @@ const logout = async (req, res) => {
 };
 
 module.exports = {
-    signUp,
-    login,
+    userSignUp,
+    userLogin,
     refreshTokenHandler,
-    logout
+    userLogout
 };

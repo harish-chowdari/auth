@@ -5,7 +5,7 @@ const logger = require('../utils/logger');
 const { JWT_SECRET, JWT_EXPIRES_IN, REFRESH_SECRET, REFRESH_EXPIRES_IN } = require('../config/constants');
 
 class AuthService {
-    async signUp({ userName, phoneNo, password }) {
+    async userSignUp({ userName, phoneNo, password }) {
         const exists = await UserAuthRepository.findUserByPhone(phoneNo);
         if (exists) {
             const err = new Error('User already exists');
@@ -19,7 +19,7 @@ class AuthService {
         return user;
     }
 
-    async login({ phoneNo, password }) {
+    async userLogin({ phoneNo, password }) {
         const user = await UserAuthRepository.findUserByPhone(phoneNo);
         if (!user) {
             const err = new Error('User not found');
@@ -68,7 +68,7 @@ class AuthService {
         return { accessToken, refreshToken };
     }
 
-    async logout(token) {
+    async userLogout(token) {
         if (!token) {
             const err = new Error('Refresh token required');
             err.status = 401;

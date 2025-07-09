@@ -1,12 +1,12 @@
 const express = require('express');
-const { signUp, login, refreshTokenHandler, logout } = require('../controllers/Authcontroller');
+const { userSignUp, userLogin, refreshTokenHandler, userLogout } = require('../controllers/Authcontroller');
 const { loginValidation, registerValidation } = require('../validations/authValidations');
 
 const router = express.Router();
 
-router.post('/signup', signUp);
-router.post('/login', login); 
-router.post('/refresh-token', refreshTokenHandler);
-router.post('/logout', logout);
+router.post('/user-signup', userSignUp);
+router.post('/user-login', userLogin); 
+router.post('/user-refresh-token', refreshTokenHandler);
+router.post('/userLogout', userLogout);
 
 module.exports = router;
