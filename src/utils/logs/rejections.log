@@ -62,3 +62,35 @@ ReferenceError: Cannot access 'PORT' before initialization
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5) ReferenceError: Cannot access 'PORT' before initialization
     at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:13:18)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-10 18:38:39 error: unhandledRejection: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:14:9)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:11:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:14:9)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:11:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-10 18:49:41 error: unhandledRejection: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:14:9)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:11:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:14:9)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:11:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

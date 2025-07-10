@@ -593,3 +593,296 @@ ReferenceError: Cannot access 'PORT' before initialization
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5) ReferenceError: Cannot access 'PORT' before initialization
     at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:13:18)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-10 18:38:24 error: uncaughtException: Invalid left-hand side in assignment
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:12
+            user?.cartItems = [];
+            ^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:2:62) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:12
+            user?.cartItems = [];
+            ^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:2:62)
+2025-07-10 18:38:39 error: unhandledRejection: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:14:9)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:11:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:14:9)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:11:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-10 18:42:31 info: User harish1 created 
+2025-07-10 18:43:35 info: User harish1 logged in 
+2025-07-10 18:43:56 info: User harish1 logged in 
+2025-07-10 18:49:20 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12) Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+2025-07-10 18:49:35 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12) Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+2025-07-10 18:49:40 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12) Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+2025-07-10 18:49:41 error: unhandledRejection: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:14:9)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:11:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:14:9)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:11:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-10 18:49:42 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12) Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+2025-07-10 18:50:04 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12) Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+2025-07-10 18:55:10 error: uncaughtException: Cannot find module './'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+Error: Cannot find module './'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:1:23)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) Error: Cannot find module './'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:1:23)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-07-10 18:55:12 error: uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+Error: Cannot find module '../'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:1:23)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) Error: Cannot find module '../'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:1:23)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-07-10 19:16:25 error: uncaughtException: removeProductFromCart is not defined
+ReferenceError: removeProductFromCart is not defined
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:67:2)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) ReferenceError: removeProductFromCart is not defined
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:67:2)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-10 19:16:29 error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as delete] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:14:14)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12) Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as delete] (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:14:14)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
