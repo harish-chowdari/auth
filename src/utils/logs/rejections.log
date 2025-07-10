@@ -56,3 +56,9 @@ MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefin
     at Function._load (node:internal/modules/cjs/loader:1108:12)
     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
     at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+2025-07-10 11:40:03 error: unhandledRejection: Cannot access 'PORT' before initialization
+ReferenceError: Cannot access 'PORT' before initialization
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:13:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) ReferenceError: Cannot access 'PORT' before initialization
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:13:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

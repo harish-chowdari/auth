@@ -1,6 +1,7 @@
 const dotenv = require('dotenv')
 const expressApp = require('./expressApp')
 const { databaseConnection } = require('./database')
+const { PORT } = require('./config/constants')
 
 dotenv.config()
 
@@ -9,9 +10,9 @@ const startServer = async () => {
 
     const app = expressApp()
 
-    const PORT = process.env.PORT || 5000
-    app.listen(PORT, () => {
-        console.log(`Auth Service running on port ${PORT}`)
+    const port = PORT || 5000
+    app.listen(port, () => {
+        console.log(`Auth Service running on port ${port}`)
     })
 }
 

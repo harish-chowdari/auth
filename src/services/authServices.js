@@ -54,7 +54,7 @@ class AuthService {
         }
         let decoded;
         try {
-            decoded = jwt.verify(oldToken, process.env.REFRESH_SECRET);
+            decoded = jwt.verify(oldToken, REFRESH_SECRET);
         } catch {
             const err = new Error('Invalid refresh token');
             err.status = 403;
