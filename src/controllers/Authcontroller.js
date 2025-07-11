@@ -42,9 +42,20 @@ const userLogout = async (req, res) => {
     }
 };
 
+const getAllUsers = async (req, res) => {
+    try {
+        const users = await authService.getAllUsers();
+        return res.json(users);
+    } catch (error) {
+        const status = error.status || 500;
+        return res.status(status).json({ message: error.message });
+    }
+};
+
 module.exports = {
     userSignUp,
     userLogin,
     refreshTokenHandler,
-    userLogout
+    userLogout,
+    getAllUsers
 };

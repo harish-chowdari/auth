@@ -22,6 +22,10 @@ class AuthRepository {
     async deleteRefreshToken(token) {
         return RefreshToken.deleteOne({ token });
     }
+
+    async getAllUsers() {
+        return UsersModel.find()
+    }
 }
 
 module.exports = new AuthRepository();

@@ -84,6 +84,10 @@ class AuthService {
         logger.info(`User logged out: ${saved.user}`);
         return;
     }
+
+    async getAllUsers() {
+        return UserAuthRepository.getAllUsers();
+    }
 }
 
 module.exports = new AuthService();
