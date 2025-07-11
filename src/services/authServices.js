@@ -88,6 +88,14 @@ class AuthService {
     async getAllUsers() {
         return UserAuthRepository.getAllUsers();
     }
+
+    async blockUser(userId) {
+        return UserAuthRepository.blockUser(userId);
+    }
+
+    async unblockUser(userId) {
+        return UserAuthRepository.unblockUser(userId);
+    }
 }
 
 module.exports = new AuthService();

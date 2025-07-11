@@ -52,10 +52,34 @@ const getAllUsers = async (req, res) => {
     }
 };
 
+async function blockUser(req, res) {
+    try {
+        const { userId } = req.params;
+        const user = await authService.blockUser(userId);
+        return res.json(user);
+    } catch (error) {
+        const status = error.status || 500;
+        return res.status(status).json({ message: error.message });
+    }
+}
+
+async function unblockUser(req, res) {
+    try {
+        const { userId } = req.params;
+        const user = await authService.unblockUser(userId);
+        return res.json(user);
+    } catch (error) {
+        const status = error.status || 500;
+        return res.status(status).json({ message: error.message });
+    }
+}
+
 module.exports = {
     userSignUp,
     userLogin,
     refreshTokenHandler,
     userLogout,
-    getAllUsers
+    getAllUsers,
+    blockUser,
+    unblockUser
 };

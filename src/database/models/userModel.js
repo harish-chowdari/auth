@@ -17,6 +17,11 @@ const UsersSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    isBlocked: {
+        type: Boolean,
+        required: true,
+        default: false,
+    },
     cartItems: [{
         productId: { 
             type: Schema.Types.ObjectId, 

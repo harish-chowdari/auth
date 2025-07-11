@@ -26,6 +26,14 @@ class AuthRepository {
     async getAllUsers() {
         return UsersModel.find()
     }
+
+    async blockUser(userId) {
+        return UsersModel.updateOne({ _id: userId }, { $set: { isBlocked: true } });
+    }
+
+    async unblockUser(userId) {
+        return UsersModel.updateOne({ _id: userId }, { $set: { isBlocked: false } });
+    }
 }
 
 module.exports = new AuthRepository();
