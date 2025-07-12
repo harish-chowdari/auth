@@ -74,6 +74,17 @@ async function unblockUser(req, res) {
     }
 }
 
+async function getUserStats(req, res) {
+    try {
+        const stats = await authService.getUserStats();
+        return res.json(stats);
+    } catch (error) {
+        const status = error.status || 500;
+        return res.status(status).json({ message: error.message });
+    }
+}
+
+
 module.exports = {
     userSignUp,
     userLogin,
@@ -81,5 +92,6 @@ module.exports = {
     userLogout,
     getAllUsers,
     blockUser,
-    unblockUser
+    unblockUser,
+    getUserStats
 };

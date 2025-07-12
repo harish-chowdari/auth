@@ -96,6 +96,11 @@ class AuthService {
     async unblockUser(userId) {
         return UserAuthRepository.unblockUser(userId);
     }
+
+    async getUserStats() {
+        return UserAuthRepository.getUserStats();
+    }
+
 }
 
 module.exports = new AuthService();

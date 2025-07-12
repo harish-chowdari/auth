@@ -34,6 +34,20 @@ class AuthRepository {
     async unblockUser(userId) {
         return UsersModel.updateOne({ _id: userId }, { $set: { isBlocked: false } });
     }
+
+    async getUserStats() {
+	const now = new Date()
+	const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1)
+	const totalUsersPromise = UsersModel.countDocuments()
+	const registeredThisMonthPromise = UsersModel.countDocuments({ createdAt: { $gte: startOfMonth, $lte: now } })
+	const blockedUsersPromise = UsersModel.countDocuments({ isBlocked: true })
+	const [totalUsers, registeredThisMonth, blockedUsers] = await Promise.all([
+		totalUsersPromise,
+		registeredThisMonthPromise,
+		blockedUsersPromise
+	])
+	return { totalUsers, registeredThisMonth, blockedUsers }
+}
 }
 
 module.exports = new AuthRepository();
