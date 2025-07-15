@@ -8,6 +8,8 @@ dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 module.exports = {
     PORT: process.env.PORT || 2000,
     DB_URI: process.env.MONGO_URI,
+
+    API_GATEWAY_URL: process.env.API_GATEWAY_URL,
     
     JWT_SECRET: process.env.JWT_SECRET,
     JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN,

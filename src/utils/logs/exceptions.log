@@ -1046,3 +1046,474 @@ ReferenceError: getUserStats is not defined
     at Module.require (node:internal/modules/cjs/loader:1311:12)
     at require (node:internal/modules/helpers:136:16)
     at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:4:20)
+2025-07-15 09:34:17 error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:70:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:7:5) ReferenceError: async is not defined
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:70:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:7:5)
+2025-07-15 09:34:18 error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:70:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:7:5) ReferenceError: async is not defined
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:70:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:7:5)
+2025-07-15 09:34:56 error: uncaughtException: Unexpected identifier 'form'
+C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:15
+remove form cart
+       ^^^^
+
+SyntaxError: Unexpected identifier 'form'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:5:20) C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:15
+remove form cart
+       ^^^^
+
+SyntaxError: Unexpected identifier 'form'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:5:20)
+2025-07-15 09:35:01 error: uncaughtException: Unexpected identifier 'form'
+C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:15
+remove form cart
+       ^^^^
+
+SyntaxError: Unexpected identifier 'form'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:5:20) C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:15
+remove form cart
+       ^^^^
+
+SyntaxError: Unexpected identifier 'form'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:5:20)
+2025-07-15 09:35:04 error: uncaughtException: Unexpected identifier 'form'
+C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:16
+remove form cart
+       ^^^^
+
+SyntaxError: Unexpected identifier 'form'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:5:20) C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:16
+remove form cart
+       ^^^^
+
+SyntaxError: Unexpected identifier 'form'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:5:20)
+2025-07-15 09:49:40 error: uncaughtException: Unexpected token 'if'
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:29
+		if (!user) return res.status(404).json({ message: 'User not found' })
+		^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:29
+		if (!user) return res.status(404).json({ message: 'User not found' })
+		^^
+
+SyntaxError: Unexpected token 'if'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:49:50 error: uncaughtException: Unexpected token 'return'
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:29
+		if (!user) return res.status(404).json({ message: 'User not found' })
+		           ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:29
+		if (!user) return res.status(404).json({ message: 'User not found' })
+		           ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:49:54 error: uncaughtException: missing ) after argument list
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(http://localhost:5000/api/products/get-product/686a7794d639ea8e9b4fd439)
+                                    ^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(http://localhost:5000/api/products/get-product/686a7794d639ea8e9b4fd439)
+                                    ^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:49:55 error: uncaughtException: missing ) after argument list
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(http://localhost:5000/api/products/get-product/686a7794d639ea8e9b4fd439);
+                                    ^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(http://localhost:5000/api/products/get-product/686a7794d639ea8e9b4fd439);
+                                    ^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:49:58 error: uncaughtException: missing ) after argument list
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(http://localhost:5000/api/products/get-product/686a7794d639ea8e9b4fd439');
+                                    ^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(http://localhost:5000/api/products/get-product/686a7794d639ea8e9b4fd439');
+                                    ^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:51:35 error: uncaughtException: Unexpected end of input
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:91
+
+
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:91
+
+
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:51:57 error: uncaughtException: Invalid or unexpected token
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get($/api/products/get-product/686a7794d639ea8e9b4fd439`);
+                                                               ^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get($/api/products/get-product/686a7794d639ea8e9b4fd439`);
+                                                               ^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:52:00 error: uncaughtException: missing ) after argument list
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(${API_GATEWAY_URL/api/products/get-product/686a7794d639ea8e9b4fd439`);
+                                    ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(${API_GATEWAY_URL/api/products/get-product/686a7794d639ea8e9b4fd439`);
+                                    ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:52:01 error: uncaughtException: missing ) after argument list
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(${API_GATEWAY_URL/api/products/get-product/686a7794d639ea8e9b4fd439`);
+                                    ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:28
+        const res = await axios.get(${API_GATEWAY_URL/api/products/get-product/686a7794d639ea8e9b4fd439`);
+                                    ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:52:05 error: uncaughtException: missing ) after argument list
+C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:29
+        const res = await axios.get(${API_GATEWAY_URL}/api/products/get-product/686a7794d639ea8e9b4fd439`);
+                                    ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5) C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:29
+        const res = await axios.get(${API_GATEWAY_URL}/api/products/get-product/686a7794d639ea8e9b4fd439`);
+                                    ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js:8:5)
+2025-07-15 09:54:13 error: uncaughtException: Cannot find module 'axios'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+Error: Cannot find module 'axios'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) Error: Cannot find module 'axios'
+Require stack:
+- C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\routes\cartRoutes.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js
+- C:\Users\haris\Pictures\backend-services\auth-service\src\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\controllers\cartController.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
