@@ -89,6 +89,14 @@ class AuthService {
         return UserAuthRepository.getAllUsers();
     }
 
+    async getUser(userId) {
+        return UserAuthRepository.getUserById(userId);
+    }
+
+    async addUserAddress(userId, address) {
+        return UserAuthRepository.addUserAddress(userId, address);
+    }
+
     async blockUser(userId) {
         return UserAuthRepository.blockUser(userId);
     }

@@ -22,6 +22,28 @@ const UsersSchema = new mongoose.Schema({
         required: true,
         default: false,
     },
+    fullAddress: {
+        addressLine1: {
+            type: String,
+            required: true,
+        },
+        addressLine2: {
+            type: String,
+            required: true,
+        },
+        city: {
+            type: String,
+            required: true,
+        },
+        state: {
+            type: String,
+            required: true,
+        },
+        pincode: {
+            type: String,
+            required: true,
+        }
+    },
     cartItems: [{
         productId: { 
             type: Schema.Types.ObjectId, 

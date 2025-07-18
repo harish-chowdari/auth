@@ -24,7 +24,15 @@ class AuthRepository {
     }
 
     async getAllUsers() {
-        return UsersModel.find()
+        return UsersModel.find().select('-password');
+    }
+
+    async getUserById(userId) {
+        return UsersModel.findById(userId).select('-password').select('-cartItems');
+    }
+
+    async addUserAddress(userId, address) {
+        return UsersModel.updateOne({ _id: userId }, { $set: { fullAddress: address } });
     }
 
     async blockUser(userId) {

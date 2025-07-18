@@ -52,6 +52,29 @@ const getAllUsers = async (req, res) => {
     }
 };
 
+const getUser = async (req, res) => {
+    try {
+        const { userId } = req.params;
+        const user = await authService.getUser(userId);
+        return res.json(user);
+    } catch (error) {
+        const status = error.status || 500;
+        return res.status(status).json({ message: error.message });
+    }
+};
+
+const addUserAddress = async (req, res) => {
+    try {
+        const { userId } = req.params;
+        const { address } = req.body;
+        const user = await authService.addUserAddress(userId, address);
+        return res.json(user);
+    } catch (error) {
+        const status = error.status || 500;
+        return res.status(status).json({ message: error.message });
+    }
+};
+
 async function blockUser(req, res) {
     try {
         const { userId } = req.params;
@@ -91,6 +114,8 @@ module.exports = {
     refreshTokenHandler,
     userLogout,
     getAllUsers,
+    getUser,
+    addUserAddress,
     blockUser,
     unblockUser,
     getUserStats
