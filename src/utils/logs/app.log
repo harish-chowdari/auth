@@ -1821,3 +1821,19 @@ ReferenceError: addUserAddress is not defined
     at Module.require (node:internal/modules/cjs/loader:1311:12)
     at require (node:internal/modules/helpers:136:16)
     at Object.<anonymous> (C:\Users\haris\Pictures\backend-services\auth-service\src\expressApp.js:4:20)
+2025-07-21 18:25:46 error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:635:24)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:14:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\haris\Pictures\backend-services\auth-service\node_modules\express\lib\application.js:635:24)
+    at startServer (C:\Users\haris\Pictures\backend-services\auth-service\src\server.js:14:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-21 19:53:56 info: User harish logged in 
+2025-07-21 19:54:39 info: User harish logged in 
